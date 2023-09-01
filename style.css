@@ -1,14 +1,15 @@
 :root {
-    --fontNavColor: #224F34;
+    --fontNavColor: #224f34;
     --fontGenericSize: 18px;
-  }
+    --fontHeaderSize: 86px;
+
+}
 
 * {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-
 }
 
 .header-section {
@@ -21,7 +22,6 @@
     width: 80%;
     margin: 0 auto;
     padding-top: 4%;
-
 }
 
 .nav {
@@ -34,7 +34,6 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-
 }
 
 .nav-child {
@@ -47,7 +46,7 @@
     margin: 0 30px;
 }
 
-.nav-child-two { 
+.nav-child-two {
     display: flex;
 }
 
@@ -55,7 +54,6 @@
     margin-right: 60px;
     margin-top: 3%;
 }
-
 
 .login-button {
     display: flex;
@@ -68,4 +66,36 @@
     font-size: 16px;
     border: 2px solid var(--fontNavColor);
     background-color: transparent;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: end;
+}
+
+.right-side img {
+    width: 80%;
+}
+
+.left-side h1 {
+    font-family: 'Rufina', serif;    
+    color: var(--fontNavColor);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-side p {
+    color: #267D49;
+    font-size: var(--fontGenericSize)
+    font-style: normal;
+    font-weight: 500;
+    line-height: 220%; /* 52.8px */
 }
