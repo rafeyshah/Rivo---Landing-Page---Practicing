@@ -1,0 +1,71 @@
+:root {
+    --fontNavColor: #224F34;
+    --fontGenericSize: 18px;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header-section {
+    height: 100vh;
+    background-color: #c2efd4;
+}
+
+.container {
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4%;
+
+}
+
+.nav {
+    /* padding-top: 55px; */
+    display: flex;
+    justify-content: space-between;
+    color: var(--fontNavColor);
+    font-size: var(--fontGenericSize);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.nav-child {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.nav-child p {
+    margin: 0 30px;
+}
+
+.nav-child-two { 
+    display: flex;
+}
+
+.nav-child-two img {
+    margin-right: 60px;
+    margin-top: 3%;
+}
+
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 142px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid var(--fontNavColor);
+    background-color: transparent;
+}
